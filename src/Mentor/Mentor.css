@@ -1,0 +1,124 @@
+.parent {
+    padding-left: 14%;
+    padding-right: 14%;
+    margin-top: 3%;
+}
+
+.slider {
+  /* margin: 0 20px; */
+  overflow: "hidden";
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: white;
+  height: auto;
+  cursor: pointer;
+}
+
+.slider img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.react-multi-carousel-list {
+  padding: 0rem 0 2rem 0;
+}
+
+.custom-dot-list-style button {
+  border: none;
+  background: #00357a;
+}
+.react-multi-carousel-dot.react-multi-carousel-dot--active button {
+  background: #002b63 !important;
+}
+.content-mentor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.img-mentor {
+    border-radius: 100px !important;
+    width: 25% !important;
+}
+.btn-mentor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btn-card-mentor {
+    background-color: #00357a;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    padding: 5px;
+    width: 100%;
+    font-family: "Quicksand", sans-serif;
+}
+.parent-ratting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bintang-lima {
+    width: 50% !important;
+}
+.parent-btn-daftar-sekarang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.btn-daftar-sekarang {
+    width: 100%;
+    background-color: #00357a;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    border: 1px solid transparent;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.line-card {
+    border: 1px solid rgb(225, 225, 225);
+}
+.parent-line {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pt-mentor {
+    color: #00357a;
+}
+.parent-text-mentor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 40%; */
+}
+.text-mentor {
+    text-align: center;
+    color: #00357a;
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 500px) {
+    .text-mentor {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .parent {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

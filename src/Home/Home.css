@@ -1,0 +1,121 @@
+.container-hero {
+  padding-left: 14%;
+  padding-right: 14%;
+  margin-top: 13%;
+}
+.container-footer {
+  padding-left: 14%;
+  padding-right: 14%;
+}
+.field-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.model-hero {
+  width: 40%;
+}
+.field-button {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+.title-hero {
+  font-size: 28px;
+}
+.desk-hero {
+  font-size: 18px;
+}
+.btn-belajar-sekarang {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: #00357a;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 17px;
+}
+.btn-konsultasi {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: white;
+  color: #00357a;
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 17px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.icon-buku {
+  width: 10%;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50px;
+}
+.icon-coin {
+    width: 10%;
+    background-color: #00357a;
+    padding: 5px;
+    border-radius: 50px;
+}
+.field-kategory-startup {
+    background-color: #00357a;
+    padding-left: 14%;
+    padding-right: 14%;
+    border-radius: 150px 0 0 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.container-faq {
+  background-color: #00357a;
+  padding-left: 14%;
+  padding-right: 14%;
+  border-radius: 0 0 150px 0;
+  padding-bottom: 3%;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 500px) {
+  .container-hero {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 0;
+  }
+  .field-hero {
+    display: grid;
+    place-items: center;
+    padding-top: 10px;
+  }
+  .title-hero {
+    font-size: 30px;
+  }
+  .field-button {
+    display: grid;
+  }
+  .model-hero {
+    width: 100%;
+  }
+  .field-kategory-startup {
+    border-radius: 80px 0 0 0;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .container-faq {
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 0 0 80px 0;
+  }
+  .container-footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,42 @@
+.field-program {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-top: 40px;
+}
+.kategori-program {
+    width: 30%;
+}
+.field-categori {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.icon-categori {
+    width: 5%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;
+}
+.icon-program {
+    width: 28%;
+    margin-left: 25px;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 500px) {
+    .kategori-program {
+        width: 40%;
+    }
+    .field-program {
+        gap: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .icon-program {
+        width: 40%;
+        margin-left: 30px;
+    }
+}
